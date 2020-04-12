@@ -308,7 +308,7 @@ val_auc_plot = []
 val_acc_plot = []
 train_acc_plot = []
 #best_acc = 0.0
-last_epoch = 5
+last_epoch = 31
 best_auc = 0.0
 
 for epoch in range(0, last_epoch):
