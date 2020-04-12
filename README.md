@@ -8,7 +8,7 @@ Pytorch Geometric library: https://pytorch-geometric.readthedocs.io/en/latest/ a
 
 # Usage in following order:
 1) python adding_conv_layers_in_r18.py
-2) python create_sparse_graphs.py or python create_sparse_graphs.py: store graphs with the respective format train_graph_ds.pt or val_graph_ds.pt or test_graph_ds.pt
+2) python create_sparse_graphs.py or python create_sparse_graphs.py: store graphs with the respective format train_graph_ds.pt or val_graph_ds.pt or test_graph_ds.pt. To use edges as correlation distance or cosine similarity comment out respective functions and make some minor changes in code. 
 3) python train_EC-GNN.py 
 4) ensemble_models.py
 
