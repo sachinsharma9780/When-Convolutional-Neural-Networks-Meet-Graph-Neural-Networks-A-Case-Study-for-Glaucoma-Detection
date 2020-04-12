@@ -12,8 +12,9 @@ Pytorch Geometric library: https://pytorch-geometric.readthedocs.io/en/latest/ a
 3) python train_EC-GNN.py 
 4) ensemble_models.py
 Note: steps 1-4 are for ranomly split data
-5) Now for Stratified 10 fold cross validation: Split data into 10 folds using split_data_with_skfcv.py and repeat steps 1-3 foe each fold.
-6) Perform ensemble of 10 folds using ensemble_models.py
+5) Now for Stratified 10 fold cross validation: Split data into 10 folds using split_data_with_skfcv.py and repeat steps 1-3 for each fold.
+6) Perform ensemble of baseline, complete and sparse graph (correlation distance) classifiers for every fold using ensemble.py.
+
 
 Note: To get a detailed description of parameters: python script.py --help
 
